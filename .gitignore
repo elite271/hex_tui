@@ -67,3 +67,12 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+
+
+# debug information files
+*.dwo
+/.vs
+/out/build/x64-Debug
+**/.vs/
+**/out
